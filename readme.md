@@ -5,7 +5,6 @@
 [![windows build](https://img.shields.io/appveyor/ci/start-runner/clean-css.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/clean-css)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/clean-css.svg?style=flat-square)](https://codecov.io/github/start-runner/clean-css)
 [![deps](https://img.shields.io/gemnasium/start-runner/clean-css.svg?style=flat-square)](https://gemnasium.com/start-runner/clean-css)
-[![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-46bc99.svg?style=flat-square)](https://gitter.im/start-runner/start)
 
 [CleanCSS](https://github.com/jakubpawlowicz/clean-css) task for [Start](https://github.com/start-runner/start).
 
