@@ -1,9 +1,9 @@
 # start-clean-css
 
 [![npm](https://img.shields.io/npm/v/start-clean-css.svg?style=flat-square)](https://www.npmjs.com/package/start-clean-css)
-[![linux build](https://img.shields.io/travis/start-runner/clean-css.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/clean-css)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/clean-css.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/clean-css)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/clean-css.svg?style=flat-square)](https://codecov.io/github/start-runner/clean-css)
+[![linux build](https://img.shields.io/travis/start-runner/clean-css/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/clean-css)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/clean-css/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/clean-css)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/clean-css/master.svg?style=flat-square)](https://codecov.io/github/start-runner/clean-css)
 [![deps](https://img.shields.io/gemnasium/start-runner/clean-css.svg?style=flat-square)](https://gemnasium.com/start-runner/clean-css)
 
 [CleanCSS](https://github.com/jakubpawlowicz/clean-css) task for [Start](https://github.com/start-runner/start).
