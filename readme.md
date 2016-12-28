@@ -10,8 +10,10 @@
 
 ## Install
 
-```
-npm i -S start-clean-css
+```sh
+npm install --save-dev start-clean-css
+# or
+yarn add --save-dev start-clean-css
 ```
 
 ## Usage
@@ -27,20 +29,18 @@ import rename from 'start-rename';
 import cleanCSS from 'start-clean-css';
 import write from 'start-write';
 
-export function build() {
-    return start(reporter())(
-        files('build/'),
-        clean(),
-        files('lib/**/*.less'),
-        read(),
-        less({ sourceMap: true }),
-        rename(file => file.replace(/\.less$/, '.css')),
-        write('build/'),
-        cleanCSS({ sourceMap: true }),
-        rename(file => file.replace(/\.css$/, '.min.css')),
-        write('build/')
-    );
-}
+export const build = () => start(reporter())(
+  files('build/'),
+  clean(),
+  files('lib/**/*.less'),
+  read(),
+  less({ sourceMap: true }),
+  rename(file => file.replace(/\.less$/, '.css')),
+  write('build/'),
+  cleanCSS({ sourceMap: true }),
+  rename(file => file.replace(/\.css$/, '.min.css')),
+  write('build/')
+);
 ```
 
 This task relies on `[{ path, data, map }]` input and provides the same, see [documentation](https://github.com/start-runner/start#readme) for details.
